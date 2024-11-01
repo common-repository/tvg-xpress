@@ -1,0 +1,25 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.cart_totals .tvg_postbox_select{
+	display:none;
+}
+
+.tvg-shipping-status{
+	list-style: none;
+	margin-left: 0;
+}
+
+.tvg-shipping-status li.done{
+	text-decoration: line-through;
+}
+
+.tvg-shipping-status li.active{
+	font-weight: bold;
+}
+
+.tvg-shipping-status li.disabled{
+	color: #999;
+}

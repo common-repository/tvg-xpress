@@ -1,0 +1,45 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ @font-face {
+	font-family: 'tvg-icon';
+	src:  url('fonts/icomoon.eot?g4szq5');
+	src:  url('fonts/icomoon.eot?g4szq5#iefix') format('embedded-opentype'),
+	  url('fonts/icomoon.ttf?g4szq5') format('truetype'),
+	  url('fonts/icomoon.woff?g4szq5') format('woff'),
+	  url('fonts/icomoon.svg?g4szq5#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+  }
+
+.tvg_shipping_box{display:none;}
+.tvg_shipping_method,.tvg_shipping_box{
+	margin-bottom:10px;
+}
+
+.api-key-form input[type='text'], .api-key-form input[type='password']{
+  width:300px;
+}
+.tvg-shipping-status li{
+	font-style: italic;
+}
+
+.tvg-shipping-status li.done{
+	text-decoration: line-through;
+}
+
+.tvg-shipping-status li.active{
+	font-weight: bold;
+}
+
+.tvg-shipping-status li.disabled{
+	color: #999;
+}
+.printer-response{
+	display: block;
+	margin-top: 10px;
+	font-style: italic;
+}
